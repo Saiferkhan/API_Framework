@@ -14,7 +14,7 @@ import payload.UserPayload;
 import static io.restassured.RestAssured.given;
 
 public class UserTests extends BaseClass {
-   // @Test(priority = 1)
+   @Test(priority = 1)
     public void createUserTest() {
         UserPayload pload = new UserPayload();
         
@@ -38,7 +38,7 @@ public class UserTests extends BaseClass {
         Assert.assertEquals(response.getStatusCode(), 201);
 
     }
-   // @Test(priority=2)
+   @Test(priority=2)
     public void getProductsList() {
     	
      given()
@@ -73,7 +73,7 @@ public class UserTests extends BaseClass {
         .then().statusCode(200).log().all();
     }
     
-  //  @Test
+   @Test
     public void deleteUserAccount() {
     	//UserPayload pload=new UserPayload();
     	
