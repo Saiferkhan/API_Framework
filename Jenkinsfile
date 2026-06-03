@@ -33,7 +33,9 @@ pipeline {
         // This is the correct method that Jenkins recognizes
 //        junit '*target/surefire-reports.xml' 
 
+		bat 'dir target\\surefire-reports'
 		junit allowEmptyResults: true, testResults: '**/target/surefire-reports/*.xml'
+		
     }
 }
 }
