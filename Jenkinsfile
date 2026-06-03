@@ -29,7 +29,7 @@ pipeline {
     }
 
     post {
-//    always {
+   always {
         // This is the correct method that Jenkins recognizes
 //        junit '*target/surefire-reports.xml' 
 
