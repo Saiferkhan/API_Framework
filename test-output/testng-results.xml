@@ -1,21 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-25T16:22:14 IST" name="Default suite" finished-at="2026-05-25T16:22:17 IST" duration-ms="2659">
+  <suite started-at="2026-06-08T16:03:08 IST" name="Suite" finished-at="2026-06-08T16:03:14 IST" duration-ms="5649">
     <groups>
     </groups>
-    <test started-at="2026-05-25T16:22:14 IST" name="Default test" finished-at="2026-05-25T16:22:17 IST" duration-ms="2659">
+    <test started-at="2026-06-08T16:03:08 IST" name="Test" finished-at="2026-06-08T16:03:14 IST" duration-ms="5649">
       <class name="tests.UserTests">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.UserTests@3e694b3f]" started-at="2026-05-25T16:22:14 IST" name="setup" finished-at="2026-05-25T16:22:15 IST" duration-ms="364" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.UserTests@13d73f29]" started-at="2026-06-08T16:03:08 IST" name="setup" finished-at="2026-06-08T16:03:09 IST" duration-ms="383" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="updateProduct()[pri:3, instance:tests.UserTests@3e694b3f]" started-at="2026-05-25T16:22:15 IST" name="updateProduct" finished-at="2026-05-25T16:22:17 IST" duration-ms="2253" status="PASS">
+        <test-method signature="deleteUserAccount()[pri:0, instance:tests.UserTests@13d73f29]" started-at="2026-06-08T16:03:09 IST" name="deleteUserAccount" finished-at="2026-06-08T16:03:12 IST" duration-ms="2945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUserAccount -->
+        <test-method signature="createUserTest()[pri:1, instance:tests.UserTests@13d73f29]" started-at="2026-06-08T16:03:12 IST" name="createUserTest" finished-at="2026-06-08T16:03:13 IST" duration-ms="1008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserTest -->
+        <test-method signature="getProductsList()[pri:2, instance:tests.UserTests@13d73f29]" started-at="2026-06-08T16:03:13 IST" name="getProductsList" finished-at="2026-06-08T16:03:13 IST" duration-ms="575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProductsList -->
+        <test-method signature="updateProduct()[pri:3, instance:tests.UserTests@13d73f29]" started-at="2026-06-08T16:03:13 IST" name="updateProduct" finished-at="2026-06-08T16:03:14 IST" duration-ms="621" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateProduct -->
       </class> <!-- tests.UserTests -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
