@@ -18,6 +18,13 @@ pipeline {
                     branch: 'main' // Specify your branch name
             }
         }
+        stage('Checkout Code for developer repositoroy') {
+            steps {
+                // Checkout the source code from your Git repository
+                git url: 'https://github.com/Saiferkhan/DevelopersCode',
+                    branch: 'main' // Specify your branch name
+            }
+         }
 
         stage('Build and Test') {
             steps {
